@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>“Semantic HTML
+        Practice</title> 
+    <style>
+        body{
+            margin:0;
+        }
+       header ul{
+            background-color: brown;
+            font-size: 15pt;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 50pt;
+            padding-right: 150pt;
+            padding-left: 150pt;
+        }
+        .content{
+            display: flex;
+        }
+        .firstarticle {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .sidebar {
+            flex: 2;
+            background-color: #e0e0e0;
+            padding: 15px;
+            border-radius: 5px;
+        }
+    
+        .unlist{
+            color:white;
+        }
+        
+        li{
+            list-style-type: none;
+        }
+
+        footer ul{
+            background-color: rgb(228, 204, 204);
+            font-size: 10pt;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 25pt;
+            padding-right: 30pt;
+        }
+    </style>
+</head>
+<body>
+    <main>
+    <header>
+        <!-- navigation bar items -->
+        <nav>
+            <ul class="unlist">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <div class="firstarticle">
+            <section>
+                <!-- first section about programming -->
+                <article>
+                    <h2>What is programming</h2>
+                <p>Programming is the process of <strong>designing and building software solutions to solve problems or perform specific tasks.</strong> At its heart, programming is about logic, creativity, and precision. Developers write instructions, called code, using languages like Python, JavaScript, or C++. These instructions tell computers how to perform tasks, from displaying websites to running complex algorithms. Programming isn't just for creating software—it also fosters critical thinking and problem-solving skills. As technology advances, learning to program becomes an essential skill in almost every field, empowering individuals to innovate, automate, and bring their ideas to life. It's more than a skill—it's a superpower.</p>
+                <figure>
+                    <img src="https://www.21kschool.com/id/wp-content/uploads/sites/21/2023/07/Coding.png" alt="Programmer's world" width="400"> 
+                    <figcaption><em>What a real programmer looks like</em></figcaption>
+                </figure>
+            </article>
+            </section>
+        </div>
+        <div class="sidebar">
+            <section>
+                <aside>
+                    <!-- aside bar containing more information about python -->
+                    <span style="color:blueviolet;">Did you know that</span> Python is one of the most popular programming languages for beginners due to its simple syntax? The first-ever programmer, Ada Lovelace, wrote an algorithm in the 1840s for a mechanical computer.  
+                    <p> See more information about <a href="https://www.python.org/">Python</a></p>
+                </aside>
+            </section>
+        </div>
+    </div>
+    
+    <footer>
+        <!-- foot information -->
+        <ul>
+            <li>©2024 Copyright</li>
+            <li>10X learning platform</li>
+            <li>Contact &lt;Chubinidze.avto16@gmail.com&gt;</li>
+        </ul>
+    </footer>
+    
+</body>
+    
+</html>
