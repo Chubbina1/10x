@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(57, 71, 81);
+    height: 100vh;
+}
+
+caption{
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(251, 250, 252);
+}
+
+table{
+    border:2px solid rgb(194, 203, 72);
+    border-collapse: collapse;
+    width: 80%;
+    text-align: center;
+    background-color: rgb(185, 241, 191);
+}
+tr, th, td{
+    border:1px solid rgb(17, 9, 100);
+    padding: 12px;
+}
+
+td:hover{
+    background-color: rgb(162, 55, 55);
+    color: white;
+}

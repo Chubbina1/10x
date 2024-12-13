@@ -1,0 +1,36 @@
+body{
+background-color: rgb(168, 168, 180);
+display: flex;
+height: 100vh;
+align-items: center;
+justify-content: center;
+}
+caption{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(11, 11, 1);
+    padding-bottom: 15px;
+}
+table{
+    background-color: azure;
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+tr{
+    border-bottom: 1px solid black;
+}
+th, tr, td{
+    
+    padding: 12px;
+}
+.footer{
+    background-color: aquamarine;
+}
+
+tr:hover{
+    background-color: rgb(132, 85, 85);
+    color: white;
+}
