@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework</title>
+</head>
+<body>
+    
+
+<script>
+  let cone = 4;
+  let sundae = 8;
+  let coneSoltToday = 100;
+  let sundaesSoldToday = 120;
+  let discount = coneSoltToday*cone + sundaesSoldToday*sundae >= 1000;
+  console.log(`Total earings before the discount: ${coneSoltToday*cone + sundaesSoldToday*sundae}`);
+  if(discount){
+    console.log(`Total earnings after discount: ${(coneSoltToday*cone + sundaesSoldToday*sundae)*0.95}`);
+    console.log('Volume Discount Applied: Yes')
+  }else{
+    console.log('$0 discount applied');
+    console.log('Volume Discount Applied: No')
+  }
+
+
+</script>
+</body>
+</html>
